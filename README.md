@@ -72,19 +72,8 @@ ___
 
 🎯 Example Output 
 
-==========================
- Medical Store Management
-==========================
+<img width="275" height="328" alt="image" src="https://github.com/user-attachments/assets/a5be208e-c062-4724-bbd1-3a026aa29318" />
 
-1. Customer Management
-2. Medicine Management
-3. Billing
-4. Stock Management
-5. Supplier Management
-6. Search
-0. Exit
-
-Enter your choice:
 ___
 
 

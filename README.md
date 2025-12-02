@@ -69,6 +69,7 @@ medical_store.exe
 
 ___
 
+
 🎯 Example Output 
 
 ==========================

@@ -69,6 +69,21 @@ medical_store.exe
 
 ___
 
+📂 Project Structure
+
+Medical-store-management-/
+│
+├── version5.c            # Main code
+├── version5.exe          # Executable (Windows)
+├── README.md             # This file
+│
+└── Auto-created data files:
+    ├── CustomerDetails.txt
+    ├── MedicineDetails.txt
+    ├── StockDetails.txt
+    ├── SupplierDetails.txt
+    └── BillDetails.txt
+
 
 🎯 Example Output 
 

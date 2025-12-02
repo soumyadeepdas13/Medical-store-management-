@@ -1,22 +1,99 @@
-# Medical-store-management-
-A lightweight, console-based Medical Store Management system in C — simple, fast, and ideal for small pharmacies to manage customers, medicines, bills, stock and suppliers without a database.
-Medical Store Management is a beginner-friendly, terminal-based application written in standard C. It implements core pharmacy workflows — customer registration, medicine inventory with expiry validation, billing with tax calculation and timestamping, supplier records and stock adjustments. All data persists to human-readable text files, making it easy to inspect or back up. The program focuses on practicality and reliability rather than GUI complexity, so it runs on minimal hardware and can be compiled and used in any standard C environment.
-One-line app-store style blurb
-A no-nonsense, console-based pharmacy manager in C — fast, portable, and ideal for small stores and learners.
-Key features
+🏥 Medical Store Management System (C Console App)
+___
 
-Customer management: add, view, edit and remove customers (with phone, age, unique ID).
+📖 Overview
 
-Medicine management: record name, MFG/EXP dates (validated), price and ID.
+A lightweight console-based Medical Store Management System built in C.
+It helps manage:
+	•	Customers
+	•	Medicines
+	•	Stock levels
+	•	Suppliers
+	•	Billing & sales history
 
-Billing: create bills from existing/new customers, compute tax, itemized bill storage and printing to console.
+All data is stored in simple .txt files → no database required.
 
-Stock control: add/update stock quantities by medicine ID, prevent negative stock.
+___
 
-Supplier records: manage suppliers and the list of medicines they provide.
+💡 Why This Project?
+	•	Excellent learning project for file I/O, structs, and menus in C
+	•	Fully offline — works on any OS with a C compiler
+	•	Realistic simulation of a pharmacy management workflow
+	•	Beginner-friendly but covers important programming concepts
+___
 
-Search utilities: search across customers, medicines, bills and suppliers by ID, name or phone number.
+✨ Features
 
-File-based persistence: all data is stored in readable .txt files (no external DB).
+👥 Customer Management
+	•	Add, view, edit, delete customers
+	•	Search by ID or phone number
 
-Input validation: date checks (including leap years), ID uniqueness checks, length checks for names/numbers.
+💊 Medicine Management
+	•	Add medicines with MFG & EXP dates
+	•	Validate date inputs
+	•	Prevent duplicate IDs
+
+📦 Stock Management
+	•	Track stock quantities
+	•	Auto-deduct stock after billing
+	•	Prevent negative stock
+
+🏭 Supplier Management
+	•	Add & manage supplier records
+
+🧾 Billing System
+	•	Generate bills
+	•	Add multiple items
+	•	Calculate totals & tax
+	•	Save bill history
+
+🔍 Search
+	•	Search medicines, customers, suppliers, and past bills
+
+___
+
+🛠 Tech Stack
+	•	Language: C
+	•	Storage: .txt files
+	•	Compiler: GCC / Clang / MinG
+
+___
+
+🚀 How to Run
+
+Compile
+gcc version5.c -o medical_store
+
+Run 
+medical_store.exe
+
+___
+
+🎯 Example Output 
+
+==========================
+ Medical Store Management
+==========================
+
+1. Customer Management
+2. Medicine Management
+3. Billing
+4. Stock Management
+5. Supplier Management
+6. Search
+0. Exit
+
+Enter your choice:
+___
+
+
+🔮 Future Improvements
+	•	Add login / password authentication
+	•	Add low-stock alerts
+	•	Export sales reports
+	•	Add GUI version
+	•	Add database support (MySQL / SQLite)
+	•	Better error handling and validation
+___
+
+
